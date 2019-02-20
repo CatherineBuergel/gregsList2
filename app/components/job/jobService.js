@@ -2,6 +2,7 @@
 import Jobs from "../../models/job.js"
 import Job from "../../models/job.js";
 
+// @ts-ignore
 let _api = axios.create({
   baseURL: 'https://bcw-gregslist.herokuapp.com/api'
 })

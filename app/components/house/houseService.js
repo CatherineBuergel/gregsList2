@@ -2,6 +2,7 @@ import House from "../../models/house.js";
 
 //private
 
+// @ts-ignore
 let _api = axios.create({
     baseURL: 'https://bcw-gregslist.herokuapp.com/api'
 })

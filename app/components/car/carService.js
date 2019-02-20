@@ -1,9 +1,11 @@
 //PRIVATE
 import Car from "../../models/car.js";
 
+// @ts-ignore
 let _api = axios.create({
     baseURL: 'https://bcw-gregslist.herokuapp.com/api'
 })
+
 
 let _state = {
     cars: []
